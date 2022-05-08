@@ -16,4 +16,4 @@ def get_db() -> Generator:
         db = SessionLocal()
         yield db
     finally:
-        db.close()  
+        db.close()

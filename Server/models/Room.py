@@ -5,7 +5,7 @@ from sqlalchemy.orm import relationship
 from models.Base import Base
 
 class Room(Base):
-    __tablename__ = "Room"
+    __tablename__ = "rooms"
 
     roomNumber = Column(Integer, primary_key=True, index=True)
     roomType = Column(VARCHAR(45), index = True)

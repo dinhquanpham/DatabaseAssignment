@@ -14,8 +14,6 @@ app = FastAPI(
 
 app.include_router(router)
 
-@app.get('/abc/{id}')
-def index(id):
-    return {'data': {id}}
+
 
 
