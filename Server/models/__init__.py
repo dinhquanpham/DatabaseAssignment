@@ -5,5 +5,5 @@ from models.Doctor import Doctor
 from models.Medication import Medication
 from models.Patient import Patient
 from models.Payment import Payment
-from models.Prescribes import Prescribes
+from models.Prescription import Prescription
 from models.Room import Room
